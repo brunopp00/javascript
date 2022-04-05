@@ -8,22 +8,22 @@
 </head>
 <body>
     <h1>Sua Nacionalidade</h1>
-    De que país você é <input type="email" name="txtnac" id="txtnac">
-    <input type="button" value="Verificar" onclick="pais()">
+    De que país você é <input type="search" name="txtnac" id="txtnac">
+    <input type="button" value="Verificar" onclick="calcular()">
     <div id="res">
 
     </div>
     <script>
         var txtn = window.document.getElementById('txtnac')
-        function pais() {
-            var res = document.getElementById ('res')
-            res.innerHTML += `<p>Você nasceu na/o ${vel}</p>`
+        function calcular() {
+            var res = window.document.getElementById ('res')
+            res.innerHTML = `<p>Você nasceu na/o ${res}</p>`
             if (res == Brasil) {
-                res.innerHTML `<p>Você é brasileiro</p>`
+                res.innerHTML += `<p>Você é brasileiro</p>`
             }
             else {
-                res.innerHTML`<p>Você é estrangeiro</p>`
-            }
+                res.innerHTML += `<p>Você é estrangeiro</p>` 
+            } 
         }
     </script>
 </body>
