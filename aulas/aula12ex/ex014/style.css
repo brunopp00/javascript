@@ -1,0 +1,35 @@
+body {
+  background: rgb(94, 94, 151);
+}
+header {
+  text-align: center;
+  color: white;
+}
+
+section {
+ background: white;
+ border-radius:10px ;
+ padding: 15px;
+ width: 500px;
+ margin:50px auto;
+ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.536);
+}
+div {
+  text-align: center;
+  padding: 5px;
+}
+
+footer{
+  color: black;
+  text-align: center;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+img{
+  max-width: 500px;
+}
