@@ -1,0 +1,10 @@
+/*let num = [9, 5, 12]
+num.sort()
+num.push(7)
+
+console.log(`Nosso valor é o ${num}`)*/
+let num = [9, 2, 10, 23]
+let c = 1
+for (1; c + 5; 1) {
+  console.log(c)
+}
